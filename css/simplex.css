@@ -1,0 +1,69 @@
+@font-face {
+	font-family: signika;
+	src: url('./fonts/signika/Signika-Light.otf');
+}
+
+body{
+	font-family: signika;
+	text-align: center;
+	background: rgb(6, 50, 70);
+	color: #fff;
+	transition: background-color 5s ease;
+	font-size: 20pt;
+}
+hr{
+	border-color : white;
+	background-color : white;
+	color: white;
+}
+
+.hint { display: none; color: gray; font-style: italic; }
+input#iMax:focus + .hint { display :  block }
+
+
+
+#tableInicial{
+	margin-top: 10px;
+}
+table{
+	table-layout: fixed;
+}
+
+table td:first-child {
+	background-color: rgb(51, 133, 196);
+}
+
+table tr:first-child {
+	background-color: rgb(51, 133, 196);
+}
+
+
+table tr:first-child td:first-child{
+	background-color: rgba(84, 196, 84, 0.986);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+button{
+	margin: 3px;
+	font-size: 22pt;
+}
+
+input{
+	width: 70px;
+	text-align: center;
+	border-radius: 3px;
+}
+span.input-group-text{
+	font-size: 22pt;
+}
+
+button#firstPhase, button#solveSimplex, button#stepByStep, button#again {
+	font-size: 18pt;
+}
