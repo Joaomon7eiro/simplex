@@ -1,5 +1,10 @@
 
+**Commits desse repositório foram feitos em:
 
+  https://gitlab.com/joaoagrom/simplex 
+  
+  https://github.com/leotramontini/aprendaSimplex
+  
 **1. NOME DOS INTEGRANTES DO GRUPO**
 
 - João Vitor Monteiro Nandes      BCC
