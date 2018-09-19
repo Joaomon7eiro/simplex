@@ -10,7 +10,6 @@
 - João Vitor Monteiro Nandes      BCC
 - Leonardo Gonçalves Tramontini   BCC
 - Monique Elen Fernandes Altero   BCC
-- Rafael Lepri                    BCC
 
 **2. INTRODUÇÃO**
 
